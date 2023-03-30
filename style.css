@@ -1,0 +1,35 @@
+.summarize-button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  padding: 6px 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.summarize-button:hover {
+  background-color: #45a049;
+}
+
+.summary-textbox {
+  /* Add your summary textbox styles here */
+  display: none;
+  position: absolute;
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  z-index: 999;
+  overflow: auto;
+}
+.summary-textbox.visible {
+  display: block;
+}
